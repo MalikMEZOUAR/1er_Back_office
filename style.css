@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.lien_header{
+    color : #fff; 
+    font-size : 2rem;
+}
+.header{
+    align-items: center;
+    background-color: #333;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    padding: 50px;
+}
+form{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+label{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.btn_envoyer, .btn-ajouter{
+    background-color: #333;
+    color: #fff;
+    width: fit-content;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 1px #333;
+    transition: 0.2 ease;
+}
+.btn_envoyer:hover, .btn-ajouter:hover{
+    background-color: #ffffff;
+    color: black;
+}
+textarea{
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px #333; 
+    background-color: #fff;
+    vertical-align: bottom;
+    padding: 10px;
+}
+.result{
+    margin-top: 10px;
+}
+.titre_result{
+    border-bottom: solid 5px #cccccc;
+    border-top: solid 3px #cccccc;
+}
+.result div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: solid 3px #cccccc;
+    align-items: center;
+}
+.titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-ajouter{
+    height: fit-content;
+}
+.lien_objet{
+    color: rgb(0, 140, 255);
+    transition: 0.2s ease;
+}
+.lien_objet:hover{
+    text-decoration: underline;
+}
+.btn_suppr{
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    transition: 2s ease;
+    width: fit-content;
+    background-color: #fff;
+    border: 0;
+}
+.btn_suppr:hover{
+    text-decoration: underline;
+}
+.Bouton_deconnection{
+    color: #000;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #fff;
+}
+.Bouton_deconnection:hover{
+    color: #fff;
+    background-color: #333;
+    border: solid 1px #fff;
+}
+fieldset{
+    position: relative;
+    left: 50%;
+    top:100%;
+    translate: -50%;
+    display: grid;
+    width: 15%;
+    gap: 10px;
+}
